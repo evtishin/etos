@@ -20,6 +20,9 @@ _start:
     mov al, 'e'
     int 0x10
     mov al, 'r'
+    int 0x10
+    mov al, ' '
+    int 0x10
        ; Repeat for each character...
 
     ; Hang the system
